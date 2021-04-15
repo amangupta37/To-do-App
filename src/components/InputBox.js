@@ -60,7 +60,7 @@ function InputBox() {
                 <input id="inp-box" type="text" placeholder="Write a to-do" autoComplete="off"  required onChange={handelOnChange} onKeyPress={handelPress}   value={title} />
             </div>
             <div className="add-btn">
-              <AddCircleOutlineIcon className="size-icon" onClick={createTodo}  />
+              <AddCircleOutlineIcon  className="size-icon" onClick={createTodo}  />
             </div>
           </div>
       </div>
