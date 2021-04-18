@@ -1,5 +1,5 @@
 import React,{useEffect,useState} from 'react'
-import EditIcon from '@material-ui/icons/Edit';
+// import EditIcon from '@material-ui/icons/Edit';
 import firebase from '../firebase';
 // import DeleteBtn from '../components/DeleteBtn';
 import DeleteIcon from '@material-ui/icons/Delete';
@@ -79,17 +79,11 @@ function HoldData() {
                          </div>
                       </div>
 
-                      <div className="timeline">
-                        created @ 12.03.2020 2:00pm
-                      </div>
+
+
           </div>
 
-          <div className="edit">
-                <div className="edit-icon">
-                        <EditIcon id="style-edit-icon"/>
-                </div>
-         </div>
-         
+        
 
          <div className="del">
                  <div className="del-icon">

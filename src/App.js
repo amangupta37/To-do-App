@@ -3,7 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import InputBox from './components/InputBox';
 import TaskList from './components/TaskList';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 
 function App() {
 
@@ -19,8 +19,7 @@ function App() {
             </div>
             <InputBox />
             <TaskList />
-            <Footer />
-
+          
       </div>
      
     
